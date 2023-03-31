@@ -1,0 +1,27 @@
+body{
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.linked{
+  font-weight: 60%;
+  font-size: 64px;
+  color: #2764ac;
+
+}
+.in{
+  background-color: #2764ac;
+  border-radius: 5px;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-weight: 600;
+  font-size: 64px;
+  margin-left: 8px;
+}
